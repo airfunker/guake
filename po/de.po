@@ -101,7 +101,7 @@ msgstr "Einfügen"
 
 #: ../data/guake.glade.h:3
 msgid "Toggle Fullscreen"
-msgstr "Vollbildmodus aktivieren"
+msgstr "Vollbildmodus aktivieren/deaktivieren"
 
 #: ../data/guake.glade.h:4
 msgid "Save to File..."
@@ -181,8 +181,8 @@ msgid ""
 "guake -r \"main\" -e \"cd ~/projects/myproject/main\"\n"
 "guake -r \"prod\" -e \"cd ~/projects/myproject/prod\"\n"
 msgstr ""
-"Pfad zu einem bash skript das beim Start von Guake automatisch ausgeführt "
-"wird, außer man gibt --no-startup-script an.\n"
+"Pfad zu einem Bash-Skript, das beim Start von Guake automatisch ausgeführt "
+"wird (Option wird beim Programmaufruf mit Parameter --no-startup-script ignoriert).\n"
 "\n"
 "Normalerweise benutzt dies die Konfiguration über die Kommandozeile:\n"
 "\n"
@@ -398,7 +398,7 @@ msgid ""
 "Blink on\n"
 "Blink off"
 msgstr ""
-"GTK+ Einstellung benutzen\n"
+"GTK+-Einstellung benutzen\n"
 "Blinken an\n"
 "Blinken aus"
 
@@ -470,7 +470,7 @@ msgstr ""
 
 #: ../data/prefs.glade.h:84
 msgid "Editor command line:"
-msgstr "Kommandozeilen"
+msgstr "Editor-Kommandozeile:"
 
 #: ../data/prefs.glade.h:86
 #, no-c-format
@@ -549,7 +549,7 @@ msgstr ""
 
 #: ../data/prefs.glade.h:103
 msgid "_Backspace key generates:"
-msgstr "_Rückschritttaste bewirkt:"
+msgstr "_Rücksetztaste bewirkt:"
 
 #: ../data/prefs.glade.h:104
 msgid "_Delete key generates:"
@@ -557,11 +557,11 @@ msgstr "_Entfernen-Taste bewirkt:"
 
 #: ../data/prefs.glade.h:105
 msgid "_Reset Compatibility Options to Defaults"
-msgstr "_Zurücksetzen der Kompatibilitätsoptionen "
+msgstr "_Zurücksetzen der Kompatibilitätsoptionen"
 
 #: ../data/prefs.glade.h:106
 msgid "<b>Keyboard compatibility</b>"
-msgstr "<b>Tastatur Kompatibilität </b>"
+msgstr "<b>Tastatur-Kompatibilität </b>"
 
 #: ../data/prefs.glade.h:107
 msgid "Compatibility"
@@ -630,8 +630,8 @@ msgid ""
 "Guake is now running,\n"
 "press <b>%s</b> to use it."
 msgstr ""
-"Guake läuft bereits,\n"
-"bitte drücken Sie <b>%s</b> um es zu benutzen."
+"Guake läuft bereits.\n"
+"Bitte drücken Sie <b>%s</b>, um das Programm zu benutzen."
 
 #: ../src/guake/guake_app.py:602
 #, python-format
